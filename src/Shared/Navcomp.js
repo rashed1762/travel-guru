@@ -2,7 +2,7 @@ import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import './nav.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBuilding, faCircleInfo, faCoffee, faContactBook, faHouse, faInfo, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faBuilding, faCircleInfo, faCoffee, faContactBook, faHouse, faInfo, faPlaneArrival, faUser } from '@fortawesome/free-solid-svg-icons'
 
 const Navcomp = () => {
   return (
@@ -28,6 +28,13 @@ const Navcomp = () => {
   <NavLink to="/rooms" as={Link}>
   <div className="tooltip" data-tip="our rooms">
   <FontAwesomeIcon icon={faBuilding} />
+    </div>
+    </NavLink>
+  </li>
+  <li>
+  <NavLink to="/destination" as={Link}>
+  <div className="tooltip" data-tip="Destination">
+  <FontAwesomeIcon icon={faPlaneArrival} />
     </div>
     </NavLink>
   </li>

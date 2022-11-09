@@ -1,0 +1,110 @@
+.desbanner{
+    background-image: url("/src/assestes/desbanner.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    overflow: hidden;
+}
+
+
+.destinationcrd{
+    background-image: url("/src/assestes/des1.jpg");
+    background-size: cover;
+    width: 470px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.destinationcrd:hover{
+    transform: scale(1.03);
+    transition: .8s;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+
+.destinationcrd2{
+    background-image: url("/src/assestes/des2.jpg");
+    background-size: cover;
+    width: 470px;
+    height: 400px;
+}
+
+.destinationcrd2:hover{
+    transform: scale(1.03);
+    transition: .8s;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.destinationcrd3{
+    background-image: url("/src/assestes/indiades.jpg");
+    background-size: cover;
+    width: 470px;
+    height: 400px;
+}
+
+.destinationcrd3:hover{
+    transform: scale(1.03);
+    transition: .8s;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.destinationcrd4{
+    background-image: url("/src/assestes/bali.jpg");
+    background-size: cover;
+    width: 470px;
+    height: 400px;
+}
+
+.destinationcrd4:hover{
+    transform: scale(1.03);
+    transition: .8s;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.destinationcrd5{
+    background-image: url("/src/assestes/suizerland.jpg");
+    background-size: cover;
+    width: 470px;
+    height: 400px;
+}
+.destinationcrd5:hover{
+    transform: scale(1.03);
+    transition: .8s;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.destinationcrd6{
+    background-image: url("/src/assestes/morokko.jpg");
+    background-size: cover;
+    width: 470px;
+    height: 400px;
+}
+
+.destinationcrd6:hover{
+    transform: scale(1.03);
+    transition: .8s;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.destinationcrd7{
+    background-image: url("/src/assestes/italydes.jpg");
+    background-size: cover;
+    width: 470px;
+    height: 400px;
+}
+
+.destinationcrd7:hover{
+    transform: scale(1.03);
+    transition: .8s;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+
+

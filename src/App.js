@@ -14,6 +14,7 @@ import Italy from './TravelPage/Italy';
 import Piran from './TravelPage/Piran';
 import Karkow from './TravelPage/Karkow';
 import Bali from './TravelPage/Bali';
+import Destination from './Pages/Destination/Destination';
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
       <Route path='/' element={<Home></Home>}> </Route>
       <Route path='/about' element={<About></About>}> </Route>
       <Route path='/rooms' element={<Rooms></Rooms>}> </Route>
+      <Route path='/destination' element={<Destination></Destination>}> </Route>
+      
       <Route path='/contact' element={<Contact></Contact>}> </Route>
       <Route path='/login' element={<Login></Login>}> </Route>
       <Route path='/beijing' element={<Beijing></Beijing>}> </Route>
