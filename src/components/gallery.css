@@ -1,0 +1,26 @@
+.cardstyle{
+    background-image: url("/src/assestes/1431610.jpg");
+    background-size: cover;
+    color: wheat;
+}
+.gallery{
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%;
+    overflow: hidden;
+}
+.gallery img{
+    overflow: hidden;
+}
+.gallery img:hover {
+    transform: scale(1.07);
+    transition: .8s;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.crdimg{
+    height: 400px;
+}

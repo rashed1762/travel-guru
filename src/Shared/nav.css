@@ -1,0 +1,13 @@
+.menunav{
+    height: 90px;
+    width:  90px;
+    color: blueviolet;
+    position: fixed;
+    top: 20%;
+    width: 20px;
+    font-size: 20px;
+
+}
+.footerimg{
+    height: 100px;
+}

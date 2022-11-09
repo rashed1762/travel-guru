@@ -1,0 +1,21 @@
+.banner{
+    background-image: url("/src/assestes/1431610.jpg");
+    background-size: cover;
+    height: 1000px;
+}
+.banner2{
+    background-color: rgb(255, 251, 0);
+    height: 200px;
+}
+.searchinput{
+    background-color: yellow;
+    border-bottom: 2px solid black;
+    margin: 10px 20px;
+}
+.search{
+    padding-top: 80px;
+}
+.amazing{
+    border-left: 5px solid black;
+    padding-left: 20px;
+}
