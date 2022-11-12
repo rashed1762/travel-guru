@@ -1,0 +1,74 @@
+[
+  {
+    "_id": 1,
+    "name": "Hotel Racine",
+    "img": "https://www.telegraph.co.uk/content/dam/Travel/hotels/africa/morocco/marrakech/riad-kniza-marrakech-p.jpg",
+    "price": "$55",
+    "desc": "Offering an outdoor pool and sun terrace, Hôtel Racine is located in Marrakech, a 5-minute drive from Djemaa El Fna square. The property offers a fitness centre and a free Wi-Fi access in all areas. The Staff Was very nice and professionel...the receptionist ( the girl ) Was very welcoming and friendly ...we always Stay this hotel and we will defenatly going back..thank You to every person we met there",
+    "location": "Hotel in Marrakech"
+    
+  },
+  {
+    "_id": 2,
+    "name": "Hotel Lawerence Arabie",
+    "img": "https://media.cntraveller.com/photos/611befdc623b149193c8cfd3/master/w_1600%2Cc_limit/mamounia-swimming-pool-morocco-cnt-1may18-pr.jpg",
+    "price": "$46",
+    "desc": "Located just a 20-minute walk from Jemaa El Fna Square, Hotel Lawrence d’Arabie offers an outdoor swimming pool, café terrace and traditional Moroccan décor. On arrival, check was made so easy and the staff were amazing. The chef especially made our holiday. He went above and beyond to help us",
+    "location": "Hotel in Hivenrange,Marrakech"
+    
+  },
+  
+  {
+    "_id": 3,
+    "name": "Hotel Ibn Botuta",
+    "img": "http://cdn.cnn.com/cnnnext/dam/assets/140821095129-morocco-riad-hotels-lma-suite.jpg",
+    "price": "$39",
+    "desc": "Located in central Marrakech, this hotel is a 10-minute drive from the famous Jamaa El Fna square. It features an outdoor pool and a heated indoor one, a sauna, a fitness room . The hotel front desk staff Manager woman was the best friendly very informed assisted with our dinner and tour events!!! Helped put up my girlfriends hair exceeded all of our expectations made Marrakech memorable",
+    "location": "Hotel in Gueliz,Marrakech"
+    
+  },
+  
+  {
+    "_id": 4,
+    "name": "ONOMO airport Casablamnce",
+    "img": "https://www.telegraph.co.uk/content/dam/Travel/hotels/africa/morocco/fez/riad-anata-fes-morocco-p.jpg",
+    "price": "$72",
+    "desc": "Situated in Casablanca, 34 km from Anfaplace Mall, ONOMO Airport Casablanca features accommodation with a restaurant, free private parking, a fitness centre and a bar. Great hotel near to airport very clean",
+    "location": "Hotel in Casablanca,Morokko"
+    
+  },
+  
+  {
+    "_id": 5,
+    "name": "Hotel Suisse",
+    "img": "https://www.golfparexcellence.com/img/morocco/agadir2018/Sofitel-Royal-Bay-opl-01lsm.jpg",
+    "price": "$54",
+    "desc": "Situated on the famous Casablanca coast road, Hotel Suisse is a-30 minute drive from the airport and offers an outdoor swimming pool, terrace, barber shop and beauty salon, and as well as free Wi-Fi... The staff was friendly, the place is clean, the view was exceptional! I would recommend.",
+    "location": "Hotel in Anfa,Casablanca,Morokko"
+    
+  },
+  
+  {
+    "_id": 6,
+    "name": "Idou Anfa Hotel & Spa",
+    "img": "https://static.hurlinghamtravel.co.uk/photos/436/villa-des-orangers-moroccan-interior.jpg",
+    "price": "$118",
+    "desc": "Located in the heart of the business district, this 4-star hotel welcomes you in a very friendly atmosphere. Enjoy the personalised service as well as the high standing of the hotel. Very nice room. Central location. Great service and hospitality.",
+    "location": "Hotel In Sidi Belyout ,Casablance"
+    
+  },
+  
+  {
+    "_id": 7,
+    "name": "Hamilton Agadir",
+    "img": "https://images.squarespace-cdn.com/content/v1/55ee34aae4b0bf70212ada4c/1551127847500-DJA92A0TWMJG3O9PCWLM/agafay-desert-camp-marrakech-morocco.jpg",
+    "price": "$24",
+    "desc": "Set within walking distance of Agadir’s fine sandy beaches, HAMILTON Agadir is set in beautiful gardens and features a swimming pool. All the rooms are air-conditioned and authentic in décor. Very beautiful hotel managed by experimented people. Thanks a lot to Ghizlane for restaurant service 👍",
+    "location": "Hotel In Agadir Bay,Agadir"
+    
+  }
+
+  
+  
+
+]

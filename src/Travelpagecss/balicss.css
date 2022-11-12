@@ -1,0 +1,29 @@
+.bali{
+    overflow: hidden;
+}
+
+.balibanner{
+    background-image: url("/src/assestes/balibanner.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+
+}
+.suizimg{
+    height: 500px;
+    width: 100%;
+    padding: 0px 60px;
+    margin-left: 20px;
+    border-radius: 20px;
+    
+}
+.roomimg{
+    height: 400px;
+    width: 700px;
+}
+.roomcrd{
+    width: 750px;
+    height: 700px;
+    
+    
+}

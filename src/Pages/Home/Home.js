@@ -62,7 +62,7 @@ search part
       <div className='pl-20 pr-40'>
         <div className='amazing'> 
         <h1 className='text-6xl'> <span className='font-bold'>Amazing </span> Tour and Fun</h1>
-          <h1 className='text-6xl'>Advemture <span className='font-bold'>Waiting For You</span></h1>
+          <h1 className='text-6xl'>Adventure <span className='font-bold'>Waiting For You</span></h1>
         </div>
           
           <p className='mt-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi adipisci quidem voluptatem soluta eaque dignissimos corporis aspernatur maxime, perferendis cum vitae. Pariatur incidunt laudantium fuga excepturi accusantium maxime perspiciatis fugit!</p>

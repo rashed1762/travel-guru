@@ -1,0 +1,102 @@
+[
+  {
+    "_id": 1,
+    "name": "Blis Ubud Spa Resort",
+    "img": "https://media.cntraveler.com/photos/5c1aac884cebb85796fe4c79/master/w_4000,h_2514,c_limit/Hotel-Tugu-Bali_DSC_8054.jpg",
+    "price": "$47",
+    "desc": "Surrounded by large expanses of paddy fields, peaceful retreats await in the quiet environs of Bliss Ubud Spa Resort.",
+    "distance": "10 minitue distance from Ubud market",
+    "location": "Camphuhan,Ubud"
+    
+  },
+  {
+    "_id": 2,
+    "name": "Queen at Gunung Sari",
+    "img": "https://cdn.cnn.com/cnnnext/dam/assets/150928124817-insider-guide-bali--w-retreat-full-169.jpg",
+    "price": "$42",
+    "desc": "Featuring a restaurant, garden and views of garden, Queen at Gunung Sari is located in Ubud, a 17-minute walk from Ubud Palace. This 3-star hotel offers a 24-hour front desk and room service.",
+    "distance": "Center At Ubud",
+    "location": "Ubud"
+    
+  },
+  
+  {
+    "_id": 3,
+    "name": "Grandmas Plus Hotel Airport",
+    "img": "https://media.architecturaldigest.com/photos/59710da77530e857b503076a/16:9/w_2560%2Cc_limit/Bali_Villas_Mandapa_Three%2520Bedroom%2520Villa_Living%2520Room.jpg",
+    "price": "$22.03",
+    "desc": "Located 10 minutes’ drive from Bali Galeria Mall, Grandmas Plus Hotel Airport features free Wi-Fi throughout the hotel and has an outdoor swimming pool.",
+    "distance": "Kuta main point",
+    "location": "Hotel in By Pass Ngurah Rai Kuta,kuta"
+    
+  },
+  
+  {
+    "_id": 4,
+    "name": "Hilton Garden Inn Bali Ngurah Rai Airport",
+    "img": "https://www.travelonline.com/bali/accommodation/hotel-indigo-bali-seminyak-beach/standard-sea-view-room-95357-crop.jpg",
+    "price": "$50.07",
+    "desc": "Conveniently located 1640 feet away from Bali Denpasar International Airport, Hilton Garden Inn Bali Ngurah Rai Airport features a landscaped outdoor pool, a kids' pool and a 24-hour fitness center.",
+    "distance": "30 Minute distance from kuta main point",
+    "location": "Hotel In Tuban.Kuta"
+    
+  },
+  
+  {
+    "_id": 5,
+    "name": "The Heaven Suits Bali Berawa",
+    "img": "https://villasnorthbali.com/wp-content/uploads/2020/01/5777fd4bfa26ea1a0e2250f55526ba19-1.jpg",
+    "price": "$110.04",
+    "desc": "The luxurious all-suite THE HAVEN SUITES Bali Berawa sits impeccably right by the Berawa beach where you can enjoy a perfect sunset.",
+    "distance": "In Changu Town",
+    "location": "Hotel in Berawa,Changu"
+    
+  },
+  
+  {
+    "_id": 6,
+    "name": "Frii Bali Echo Beach",
+    "img": "https://www.hardrockhotels.com/bali/files/6079/13271939_ImageLargeWidth.jpg",
+    "price": "$77",
+    "desc": "Located in Canggu, FRii Bali Echo Beach offers an outdoor pool and free WiFi access in all of the areas in the property. Room with pool access was amazing! Rooms were very clean and staff were super friendly. The included breakfast was also super good with a large variety of western foods!",
+    "distance": "Bolong town",
+    "location": "Hotel In Batu Bolong ,Changu"
+    
+  },
+  
+  {
+    "_id": 7,
+    "name": "Harison Seminak Bali",
+    "img": "https://www.telegraph.co.uk/content/dam/Travel/hotels/asia/indonesia/bali/katamama-hotel-bali-p.jpg",
+    "price": "$103",
+    "desc": " Horison Seminyak Bali - CHSE Certified houses an outdoor swimming pool and spacious air-conditioned rooms.Location is really close to the beach. staff r very nice & the room is very clean :))))) Recommended for all (families & sole traveler )",
+    "distance": "A 2-minute walk from Seminyak shopping and dining area",
+    "location": "Hotel in Double Six,Seminak"
+    
+  },
+  
+  {
+    "_id": 8,
+    "name": "Pelangi Bali Hotel & Spa",
+    "img": "https://cache.marriott.com/content/dam/marriott-renditions/DPSWH/dpswh-escape-guestroom-1751-hor-wide.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1336px:*",
+    "price": "$86",
+    "desc": "eaturing a blend of Balinese and modern architecture, Pelangi Bali offers accommodations located on Seminyak Beach. Everything, the staff is helpful and always smiling. The property is exceptionally clean and beautiful.",
+    "distance": "Near AT Sea beach",
+    "location": "Hotel in Dyanpura,seminayak"
+    
+  },
+  
+  {
+    "_id": 9,
+    "name": "Harris Hotel Seminayak",
+    "img": "https://www.hardrockhotels.com/bali/files/6079/13271864_ImageLargeWidth.jpg",
+    "price": "$32",
+    "desc": " brightly decorated HARRIS Hotel Seminyak offers an outdoor pool as well as free WiFi access throughout the property. the staff was very friendly and helpful in many things, can ask them what ever you want and they’ll do whatever they can to help you",
+    "distance": "ocated a 5-minute walk from Dhyana Pura Beach,",
+    "location": "Hotel in Drupadi,Seminayak"
+    
+  }
+  
+  
+
+]

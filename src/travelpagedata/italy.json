@@ -1,0 +1,74 @@
+[
+  {
+    "_id": 1,
+    "name": "The Hive Hotel",
+    "img": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/279134335.jpg?k=341488f6f4dc7bc8d6232b06730e304ed655bd4a944b1a90eb2ab81ac92a0568&o=&hp=1",
+    "price": "$111",
+    "desc": "Featuring a shared rooftop terrace, The Hive Hotel is 300 metres from Santa Maria Maggiore Basilica. The hotel provides free WiFi throughout and air-conditioned rooms. great location and good breakfast. room size was reasonable. Loved that there was a balcony and the staff was really friendly.",
+    "location": "Hotel In Central Station,Rome"
+    
+  },
+  {
+    "_id": 2,
+    "name": "Grand Hotel Palatino",
+    "img": "https://upgradedpoints.com/wp-content/uploads/2019/07/Hassler-Roma.jpg",
+    "price": "$154",
+    "desc": "ust a 5-minute walk from the Coliseum and 100 metres from Cavour Metro, FH55 Grand Hotel Palatino is in Rome's Monti District. It offers an American bar and a restaurant. WiFi is free throughout. Location was central and liked breakfast with plenty of options for vegan.",
+    "location": "Hotel in Rione Monti,Rome"
+    
+  },
+  
+  {
+    "_id": 3,
+    "name": "Palazzo Canova",
+    "img": "https://pix10.agoda.net/hotelImages/1623938/-1/358ebbf6848e4b4255bf85b89e37cc9b.jpg?ca=13&ce=1&s=1024x768",
+    "price": "$130",
+    "desc": "H10 Palazzo Canova is situated in Venice and features a terrace and a bar. This 4-star hotel offers free WiFi. Big thanks for the perfect hospitality. All personal are well aware what is high quality service. Front office agents and room service stuff super friendly and welcoming. The room was so beautiful and the whole hotel. Will definitely come back!",
+    "location": "Hotel in San Polo,Venice"
+    
+  },
+  
+  {
+    "_id": 4,
+    "name": "Domus Paradiso",
+    "img": "https://pix10.agoda.net/hotelImages/17248133/-1/b94ee48f223cd80d5ea891d3c9ae23cc.jpg?ca=14&ce=1&s=1024x768",
+    "price": "$203",
+    "desc": "In the centre of Rome, located within a short distance of Piazza Navona and Largo di Torre Argentina, Cathy‘s Luxury Home offers free WiFi, air conditioning and household amenities such as a fridge...",
+    "location": "Pantheon,Rome (0.3km from Pizza Navona)"
+    
+  },
+  
+  {
+    "_id": 5,
+    "name": "43 Station Hotel",
+    "img": "https://www.milansuitehotel.com/assets/components/phpthumbof/cache/Naked_Rooms_05.d6c97cda903d7c5dec8249438aec153f.jpg",
+    "price": "$132",
+    "desc": "Offering modern rooms with free WiFi, 43 Station Hotel is set in Milan city centre, 100 metres from Milan Central Train Station. Everything is perfect. Clean room, kindly staff, perfect location. Here is new address for our Milan trips. Thanks 43 station!",
+    "location": "Hotel in Stazione Centrale ,Milan"
+    
+  },
+  
+  {
+    "_id": 6,
+    "name": "Hotel Machiavelli palace",
+    "img": "https://t-cf.bstatic.com/xdata/images/hotel/square200/283285816.webp?k=ebb622268a06689bc6410bff011c33d4757abe7b165f1f7157408a53a043ed7b&o=",
+    "price": "$344",
+    "desc": "The Machiavelli Palace is set in a 14th-century convent, 300 metres from Santa Maria Novella Train Station. Pretty much everything - rooftop bar (though expensive), location, room size, decor, comfort, large washroom and very friendly and helpful staff.",
+    "location": "Hotel in Florence Historical Centre,Florence"
+    
+  },
+  
+  {
+    "_id": 7,
+    "name": "Aqua Sardinia Boutique Hotel",
+    "img": "https://media.timeout.com/images/105255800/image.jpg",
+    "price": "$187",
+    "desc": "Located in Budoni, within 800 metres of Spiaggia Li Cuppulati and 1.7 km of Ottiolu Beach, AQUA SARDINIA boutique hotel provides accommodation with a bar and free WiFi throughout the property as well... very clean, new and comfortable",
+    "location": "Hotel In Budoni"
+    
+  }
+
+  
+  
+
+]

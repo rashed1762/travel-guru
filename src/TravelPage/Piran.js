@@ -1,16 +1,25 @@
-import React from 'react' 
+import React, { useEffect, useState } from 'react'; 
 import '../Travelpagecss/suizerland.css'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Footer from '../Shared/Footer';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBuilding, faCircleInfo, faCoffee, faContactBook, faHouse, faInfo, faLocationDot, faPlaneArrival, faUser } from '@fortawesome/free-solid-svg-icons'
 
 const Piran = () => {
+  const [suiz,setSuiz]=useState([]);
+
+
+  useEffect(()=>{
+    fetch('http://localhost:5000/suitzerlandrooms')
+    .then(res=>res.json())
+    .then(data=>setSuiz(data));
+},[])
   const settings = {
     dots: true,
     fade: true,
     infinite: true,
-    
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
@@ -50,6 +59,45 @@ const Piran = () => {
         </Slider>
       </div>
       </div>
+
+      <section className='mt-28'>
+        <div>
+          <h1 className='text-6xl'>
+            our room collections
+          </h1>
+          <p className='text-xl'>We have super exclusive room with cheap price.we want to ensure a safe and happy journey and enjoy your travel</p>
+        </div>
+        <div className='grid grid-cols-2 gap-4 mt-12' >
+          
+        
+        {
+            suiz.map((suizvalue)=>{
+              const {img,name,desc,location,price}=suizvalue;
+              return(
+                <div>
+                  <div className="card roomcrd w-96 bg-base-100 shadow-xl p-5">
+  <figure><img src={img} alt="Shoes" /></figure>
+  <p className='text-error'><FontAwesomeIcon icon={faLocationDot} /> {location}</p>
+  <div className="text-start mt-10">
+    <h2 className="card-title mb-2">{name}</h2>
+    <p>{desc}</p>
+    <div className="card-actions mr-10 font-bold justify-end mt-10">
+    <p className='text-3xl'>{price}</p>
+    <p>per night</p>
+    </div>
+    
+    <div className="card-actions justify-center">
+      <button className="btn btn-wide btn-primary">Book Now</button>
+    </div>
+  </div>
+</div>
+                </div>
+              )
+
+            })
+        }
+        </div>
+      </section>
 
       <section className='mt-28'>
         <Footer></Footer>

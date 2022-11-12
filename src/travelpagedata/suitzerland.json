@@ -1,0 +1,75 @@
+[
+  {
+    "_id": 1,
+    "name": "Hotel Berghof",
+    "img": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/262189967.jpg?k=d1b9f6852395be41436c51fbf4a3db0c478a983b23b5f8ff4b9c54ad69d651d6&o=&hp=1",
+    "price": "$88",
+    "desc": "The hotel enjoys an idyllic and quiet location above Wilderswil. It offers panoramic views of the Eiger, Mönch and Jungfrau mountains and of Lake Brienz and features a heated outdoor pool (open April... I don't know where to start, this place is beyond expectations. The staff is friendly, the location it's just breathtaking. It's clean, comfortable. My trip wasn't long enough. I will definitely stay there again.",
+    "location": "Hotel in Wilderswil"
+    
+  },
+  {
+    "_id": 2,
+    "name": "Berghotel Schyning Platte",
+    "img": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/15909797.jpg?k=7cb5bf3aecaf2153992e3b555721e8542be595c31455b400bf11152bfbe7b9a9&o=",
+    "price": "$120",
+    "desc": "Located in the small village of Wilderswil near Interlaken, between Lake Thun and Lake Brienz, Alpenblick Hotel & Restaurant Wilderswil by Interlaken offers rooms in rustic style and new rooms in... Polite staff. Good breakfast. Wilderswil is one station away from Interlaken OST and the hotel is 15 minute walk from Wilderswil station on a straight road. Bus is also an option from Interlaken west and Ost but frequency is around 20 minutes. Hotel has a very good restaurant and is located on a quiet street amongst residences.",
+    "location": "Hotel in Wilderswil"
+    
+  },
+  
+  {
+    "_id": 3,
+    "name": "Aparthotel Badhan",
+    "img": "https://www.kayak.com/rimg/himg/fe/db/f0/ice-123554-photo.aspx_did=2692_brochureid=123554_publicid=57749220_instanceid=2_resizing=4K-694115.jpg?width=1366&height=768&crop=true",
+    "price": "$101",
+    "desc": "Located in Baden, Aparthotel Baden has a terrace, bar, on-site dining, and free WiFi throughout the property. This 3-star hotel offers a concierge service. Close to the amenities. Liked the kitchen to cook meals and the patio",
+    "location": "Hotel in Baden"
+    
+  },
+  
+  {
+    "_id": 4,
+    "name": "Landhotel Linde Fishkibach",
+    "img": "https://www.aquaaurelia.de/_thumbnails_/36_5_startseite-slider.jpg",
+    "price": "$149",
+    "desc": "A 10-minute drive away from Baden, Landhotel Linde is located in the centre of Fislisbach. It offers a restaurant with a lovely garden terrace, an outdoor pool and a trendy cocktail bar. Cozy room, great breakfast, and dinner",
+    "location": "Hotel in Baden"
+    
+  },
+  
+  {
+    "_id": 5,
+    "name": "Carina Design & Lifestyle Hotel",
+    "img": "https://www.bellerive-zermatt.ch/data/Ressources/1481699689-5DSR1564-HDR_WEB.jpg",
+    "price": "$86",
+    "desc": "Carina - Design&Lifestyle hotel is an 8-minute walk from the centre and the Zermatt Train Station, and 230 metres from the Zermatt Funicular. Comfortable, quiet location, hotel is roughly 7-10 minutes away from Zermatt station. Breakfast is good and I love the spa facilities which comes with both steam and hot sauna",
+    "location": "Hotel in Zermatt"
+    
+  },
+  
+  {
+    "_id": 6,
+    "name": "",
+    "img": "https://images.squarespace-cdn.com/content/v1/54a9c390e4b0b6dc3e1b81b9/1603916374399-REZVIRUJ4UCCAJZ3O32D/_MG_6072.jpg?format=2500w",
+    "price": "$712",
+    "desc": "Located in Zermatt and with Zermatt Railway Station reachable within 1.3 km, 22 Summits Boutique Hotel provides express check-in and check-out, allergy-free rooms, a fitness centre, free WiFi... The location and view from the room was amazing. We had an unobstructed view of the Matterhorn from our balcony. It was amazing. The service was awesome. We received recommendation for a restaurant in town that was great food and service.",
+    "location": "Hotel in Zermatt"
+    
+  },
+  
+  {
+    "_id": 7,
+    "name": "Zermatt Budget Rooms",
+    "img": "https://media.myswitzerland.com/image/fetch/c_lfill,g_auto,w_3200,h_1800/f_auto,q_80,fl_keep_iptc/https://media.hotelleriesuisse.ch/eyebasealbum.data/bilder/1024/484/00050630_m.jpg?_obv=20228",
+    "price": "$198",
+    "desc": "The Zermatt Budget Rooms are underground and come with free WiFi and TV, a 5-minute walk away from the Sunnegga Cable Car and the Glacier Express. Everything was close and clean",
+    "location": "Hotel in Zermatt"
+    
+  }
+  
+
+  
+  
+
+]

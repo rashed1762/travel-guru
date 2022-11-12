@@ -1,0 +1,83 @@
+[
+  {
+    "_id": 1,
+    "name": "Village Life MALdiv",
+    "img": "https://www.tripsavvy.com/thmb/7fjM3PoM-fldRndrT87NmTfmUb4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/EWOW-1600x900-587953e95f9b584db3825b8a.jpg",
+    "price": "$45",
+    "desc": "Village Life Maldives has a restaurant, bar, a shared lounge and garden in Gaafu Alifu Atoll. Boasting room service, this property also provides guests with a terrace. we actually were ‘upgraded’ to their sister property the Village Life Life Residence but saw this guest house too. Both are good options",
+    "location": "Hotel in Gaafu Alifu Atoll"
+    
+  },
+  {
+    "_id": 2,
+    "name": "Huvab INN",
+    "img": "https://insights.ehotelier.com/wp-content/uploads/sites/6/2019/09/090319-Hard-Rock-Hotel-is-ready-to-%E2%80%9Camp-up%E2%80%9D-the-Maldives-with-its-upbeat-brand-of-music-inspired-stays.jpg",
+    "price": "$87",
+    "desc": "Situated in Fulidhoo, Huvan Inn provides 3-star accommodation with private balconies. Huvan inn is a very beautiful hotel. Their owner affu bro is a very nice ,kind & helpful guy. This hotel is a complete package.",
+    "location": "HOTEL in Fulidhoo,Maldiv"
+    
+  },
+  
+  {
+    "_id": 3,
+    "name": "Alkina Lodge",
+    "img": "http://www.falstaff.com/fileadmin/_processed_/4/0/csm_Hilton-Maldives-Amingiri_Two-Bedroom-Overwater-Pool-Villa_b880388e6f.jpg",
+    "price": "$61",
+    "desc": "Set in Fulidhoo, Alkina lodge features a garden. Among the facilities of this property are a restaurant, a shared kitchen and a shared lounge, along with free WiFi throughout the property. It's my first experience for Maldives. But it's great because my hotel facilitates me with everything. They are very welcoming The key is service.",
+    "location": "HOTEL in Fulidhoo,Maldiv"
+    
+  },
+  
+  {
+    "_id": 4,
+    "name": "Luau Beach Inn,Maldiv",
+    "img": "https://www.hardrockhotels.com/maldives/files/6016/13432873_ImageLargeWidth.jpg",
+    "price": "$211",
+    "desc": "Luau Beach Inn, Maldives in Fulidhoo provides adults-only accommodation with a restaurant, a shared lounge and a garden. I'm an experienced traveler, and Luau Beach Inn (Ablo, Julia, Amira and others) provided some of the best customer service I've ever received. They contacted me immediately via WhatsApp upon booking and answered my questions/requests, helping to set up our boat transfer, snorkel excursion, and even pre-ordering lunch for us so we could eat as soon as we arrived (even after the official lunch window had closed)",
+    "location": "HOTEL in Fulidhoo,Maldiv"
+    
+  },
+  
+  {
+    "_id": 5,
+    "name": "Samann Host",
+    "img": "https://cdn.onemileatatime.com/wp-content/uploads/2020/11/Anantara-Maldives-1.jpg",
+    "price": "$33",
+    "desc": "Featuring a garden, Samann Host is set in Hulhumale in the Kaafu Atoll region, 60 metres from Eastern/ Hulhumale beach and 6.7 km from Henveiru Park. Perfect for the overnight stay while travellong with kids back home. Vrry helpful team that guides you at the airport and explain everything you need to know. Clean rooms, comfortable beds.",
+    "location": "Hotel In Hulhumale,Maldiv"
+    
+  },
+  
+  {
+    "_id": 6,
+    "name": "Lvis Blancura Hotel",
+    "img": "http://www.budgetmaldives.com/wp-content/uploads/2020/05/Hard-Rock-Maldives-Package-Silver-Sky-Studio-Featured.jpg",
+    "price": "$173",
+    "desc": "Offering a restaurant, LVIS blancura Hotel is a beachfront property located in Dharavandhoo. Free WiFi access is available. It was something special about this hotel. The atmosphere all around was very relaxing, staff and owner were very helpful looking after our needs. We got to know nearly everyone who stayed cause the hotel is not too big. You’re having a breakfast just few meters from beach looking through fabulous garden of a property.",
+    "location": "Hotel in Dharavandhoo,Maldiv"
+    
+  },
+  
+  {
+    "_id": 7,
+    "name": "Sands Grand Hotel ",
+    "img": "https://www.baros.com/wp-content/uploads/2021/08/Baros-Maldives_Baros-Pool-Villa-Exterior-1000.jpg",
+    "price": "$288",
+    "desc": "Sands Grand Hotel has a restaurant, free bikes, a shared lounge and garden in Dhigurah. With a private beach area, the 4-star hotel has air-conditioned rooms with free WiFi. Nice hotel looks like recently renovated. Absolutely amazing food and very friendly staff made our stay extremely enjoyable.",
+    "location": "Hotel in Dhigurah,Maldiv"
+    
+  },
+  
+  {
+    "_id": 8,
+    "name": "Sampura Panoroma Guest House",
+    "img": "https://i.travelapi.com/hotels/2000000/1460000/1451600/1451558/cd208398_z.jpg",
+    "price": "$154",
+    "desc": "Located in Thulusdhoo, 100 metres from Bikini Beach, Samura Panorama Guest House provides accommodation with a restaurant, free private parking, a bar and a garden. I really enjoyed staying in Samura Panorama. The hospitality of people who work there was amazing! Thank you Gede and Devi, guys from Bali. We were warmly welcomed by manager Sanjay, who organized our transfer from Velana airport directly to the guest house and back.",
+    "location": "Hotel In Thulusdho,Maldiv"
+    
+  }
+  
+  
+
+]

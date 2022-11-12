@@ -1,0 +1,84 @@
+[
+  {
+    "_id": 1,
+    "name": "Ji Hotel Choyangmen Beijing",
+    "img": "https://image-tc.galaxy.tf/wijpeg-4dbu0l8zgnprdt0y9abime7f8/1_standard.jpg?crop=74%2C0%2C1832%2C1374",
+    "price": "$65",
+    "desc": "Just over a quarter mile from Chaoyangmen subway station (Line 2), JI Hotel Chaoyangmen Beijing is 2 miles from Wangfujing Street shopping area. It features a library and cozy rooms with free Wi-Fi.",
+    "distance": "",
+    "location": "Dongcheng,Beijing"
+    
+  },
+  {
+    "_id": 2,
+    "name": "Qiuguo Huton Courtyard Hotel",
+    "img": "https://image-tc.galaxy.tf/wijpeg-6y41g3f5e78ke8q20fgj5hm01/thumbnail-0006-deluxe_standard.jpg?crop=0%2C0%2C1600%2C1200",
+    "price": "$31",
+    "desc": "Located a 6-minute walk from Dongsi Subway Station (Line 5 & 6), Beijing 161 Wangfujing Courtyard Hotel features a restaurant and a bar. Free WiFi is offered throughout the property.",
+    "distance": "",
+    "location": "Dongcheng,Beijing"
+    
+  },
+  
+  {
+    "_id": 3,
+    "name": "Holiday inn Beijing Haidian,an IHG Hotel",
+    "img": "https://pix10.agoda.net/hotelImages/699/699145/699145_14081113580020988780.jpg?ca=13&ce=1&s=1024x768",
+    "price": "$75",
+    "desc": "Holiday Inn Beijing Haidian, located a 10-minute drive from Tsinghua University, a 5-minute walk from Qinghua East Road West Crossing Subway Station (Line 15) and 18 minutes' walk from Wudaokou Subway...",
+    "distance": "",
+    "location": "Hai Dian ,Beijing"
+    
+  },
+  
+  {
+    "_id": 4,
+    "name": "Hotel New Otani Chang fu Gong",
+    "img": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29502231.jpg?k=0e01cab8930b75bbeb9e23ea5a4a4656c93b6e5ee87b70fcb7732245b482e6c3&o=&hp=1",
+    "price": "$53",
+    "desc": "Only an 8-minute walk from Jianguomen subway station, the gorgeous Hotel New Otani Chang Fu Gong features a Chinese-style charming garden and an indoor heated pool.",
+    "distance": "Teeth Orthodontics",
+    "location": "Choyang ,Beijing"
+    
+  },
+  
+  {
+    "_id": 5,
+    "name": "Beijing Yasiming Haisheng Service Apartment",
+    "img": "https://ak-d.tripcdn.com/images/0201d120008kwwfga10CA_Z_1100_824_R5_Q70_D.jpg",
+    "price": "$44",
+    "desc": "Beijing Yasiming Haisheng Service Apartment is 0.7 mi from Guijie Street. Yonghegong Temple is 1.4 mi away. Free WiFi is available . All units have a TV with satellite channels.",
+    "distance": "",
+    "location": "Dongcheng,Beijing"
+    
+  },
+  
+  {
+    "_id": 6,
+    "name": "Park Hayatt Beijing",
+    "img": "https://www.travellingking.com/wp-content/uploads/2014/12/The-Luxurious-Shangri-La-Beijing-Hotel-Review-3.jpg",
+    "price": "$107",
+    "desc": "As part of the Beijing Yintai Center, Park Hyatt Beijing is centrally located in the CBD, directly opposite the China World Trade Center and the new CCTV Tower. WiFi is provided throughout.",
+    "distance": "",
+    "location": "Choyang ,Beijing"
+    
+  },
+  
+  {
+    "_id": 7,
+    "name": "The Presidential Beijing",
+    "img": "https://images.rosewoodhotels.com/is/image/rwhg/rosewoodbeijingrosewoodsuite-1:WIDE-MEDIUM-4-3",
+    "price": "$96",
+    "desc": "The Presidential Beijing is located in Xicheng District, a 20-minute drive from Tiananmen Square, Wangfujing and the Forbidden City.",
+    "distance": "",
+    "location": "Xicheng,Beijing"
+    
+  }
+  
+  
+  
+
+  
+  
+
+]

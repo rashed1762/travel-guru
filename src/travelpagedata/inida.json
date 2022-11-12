@@ -1,0 +1,83 @@
+[
+  {
+    "_id": 1,
+    "name": "Summit Swiss Heritage Resort & Spa",
+    "img": "https://content.r9cdn.net/rimg/dimg/92/8e/187c4ae9-city-42727-16799670a4c.jpg?width=1200&height=630&crop=true",
+    "price": "$53",
+    "desc": "Located in Darjeeling, 6.6 miles from Tiger Hill, Summit Swiss Heritage Resort & Spa provides accommodations with a restaurant, free private parking, a shared lounge and a garden. We booked the heritage room for our stay and that was the best decision. The building was built in 1914 but it was very well maintained. The room was spacious, clean and comfortable. The room had heater and bed warmer. Staffs were very good. Breakfast was amazing too. Had an excellent stay and would definitely come back",
+    "location": "Hotel In Darjelling"
+    
+  },
+  {
+    "_id": 2,
+    "name": "Yashsree Mall Road Darjeeling",
+    "img": "https://ramadadarjeeling.com/wp-content/themes/scratch/admin/thumb.php?src=wp-content/uploads/2018/08/ramada-Darjeeling-Best-Business-Hotel-darjeeling.jpg&w=1400&h=543&zc=1&q=90",
+    "price": "$37",
+    "desc": "Featuring a garden, Yashshree Mall Road Darjeeling is located in Darjeeling in the West Bengal region, 7.3 miles from Tiger Hill and a 4-minute walk from Himalayan Mountaineering Institute. Breakfast was great, staff were so helpful, best hotel in Darjeeling.",
+    "location": "Teeth Orthodontics"
+    
+  },
+  
+  {
+    "_id": 3,
+    "name": "The Relyn Suit",
+    "img": "https://content.r9cdn.net/himg/94/d7/9b/expediav2-103827-ba6026-302074.jpg",
+    "price": "$32",
+    "desc": "Located in Shillong, within a 9-minute walk of Fire Brigade Ground and 0.7 miles of First field, The Relyn Suite has accommodations with a restaurant as well as free private parking for guests who... The behavior of the staff was very friendly. They were concerned about our comfort.One of them arranged food from outside,it was really very pleasant.",
+    
+    "location": "Hotel In Shilong"
+    
+  },
+  
+  {
+    "_id": 4,
+    "name": "Hotel Travellers INN",
+    "img": "https://assets.traveltriangle.com/blog/wp-content/uploads/2017/03/1.jpg",
+    "price": "$29",
+    "desc": "Hotel Travelers INN is located in Shillong. Among the facilities at this property are a 24-hour front desk and room service, along with free WiFi throughout the property. Good breakfast but the location little far from city",
+    "location": "Hotel In Shilong"
+    
+  },
+  
+  {
+    "_id": 5,
+    "name": "Treebo Trend Varuna Shimla",
+    "img": "https://www.kayak.com/rimg/kimg/00/d1/623ea785c3873ee9.jpg?width=1366&height=768&crop=true",
+    "price": "$21",
+    "desc": "Located just off Mall Road, Treebo Varuna is a budget hotel. This property is 19 km from the Jubbarhatti Airport, 850m away from the Shimla Railway Station, and 4 km from the ISBT Tutikandi bus stand.... Rooms were nice and clean. Affordable rate.",
+    "location": "Hotel In Shimla"
+    
+  },
+  
+  {
+    "_id": 6,
+    "name": "Hotel White Season",
+    "img": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/202983040.jpg?k=cdc53e48c64e4630fed0dc06b2a591d78b0b3a6e176a245a8dd521a11940d48c&o=&hp=1",
+    "price": "$35",
+    "desc": "Located in Calangute, 300 metres from Baga Beach, Hotel White Season provides accommodation with a restaurant, free private parking, a bar and a garden. I was extremely pleased with the size of the room and how clean the property is. The owner and staff were very helpful and the conversation with them was really great. Their are located in the best possible location which is just a few meters away from Tito's Lane and a few meters away from Baga beach.",
+    "location": "Hotel In Calangute"
+    
+  },
+  
+  {
+    "_id": 7,
+    "name": "Amar Kothi",
+    "img": "https://www.meenakshihotel.com/wp-content/uploads/2019/12/Super-Deluxe-Room.jpg",
+    "price": "$14",
+    "desc": "A 15-minute drive from Lake Pichola, Amar Kothi is a traditional Haveli mansion located in Udaipur. It features a restaurant, 24-hour front desk and rooms with views of the city.",
+    "location": "Udaipur"
+    
+  },
+  
+  {
+    "_id": 8,
+    "name": "The Oberoi Amarvilas Agra",
+    "img": "https://cache.marriott.com/content/dam/marriott-renditions/AGRCY/agrcy-guestroom-0028-hor-wide.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1336px:*",
+    "price": "$170",
+    "desc": "ust 600 metres from the Taj Mahal, The Oberoi Amarvilas Agra boasts luxurious 5-star accommodation with a flat-screen TV. This property houses 4 dining options and provides free parking.",
+    "location": "Hotel In Agra (1.1 km from Taj mahal)"
+    
+  }
+  
+
+]
