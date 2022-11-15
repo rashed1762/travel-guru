@@ -6,9 +6,11 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBuilding, faCircleInfo, faCoffee, faContactBook, faHouse, faInfo, faLocationDot, faPlaneArrival, faUser } from '@fortawesome/free-solid-svg-icons'
+import ItalyModal from '../BookingModal.js/ItalyModal';
 
 const Italy = () => {
   const [italy,setItaly]=useState([]);
+  const [italymodal,setItalyModal]=useState(null)
 
 
   useEffect(()=>{
@@ -76,6 +78,12 @@ Due to its central geographic location in Southern Europe and the Mediterranean,
         
         {
             italy.map((italyvalue)=>{
+              <ItalyModal
+              italyvalue={italyvalue}
+              setItalyModal={setItalyModal}
+              
+              
+              ></ItalyModal>
               const {img,name,desc,location,price}=italyvalue;
               return(
                 <div>
@@ -89,9 +97,13 @@ Due to its central geographic location in Southern Europe and the Mediterranean,
     <p className='text-3xl'>{price}</p>
     <p>per night</p>
     </div>
+
+   
+
+
     
     <div className="card-actions justify-center">
-      <button className="btn btn-wide btn-primary">Book Now</button>
+    <label onClick={()=>setItalyModal(italyvalue)}  htmlFor="booking-modal-6" className="btn">Book Now</label>
     </div>
   </div>
 </div>
@@ -100,6 +112,7 @@ Due to its central geographic location in Southern Europe and the Mediterranean,
 
             })
         }
+        {italymodal && <ItalyModal italymodal={italymodal}></ItalyModal>}
         </div>
       </section>
 

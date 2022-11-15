@@ -4,9 +4,13 @@ import Footer from '../Shared/Footer';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBuilding, faCircleInfo, faCoffee, faContactBook, faHouse, faInfo, faLocationDot, faPlaneArrival, faUser } from '@fortawesome/free-solid-svg-icons'
+import Balimodal from '../BookingModal.js/Balimodal';
 
 const Bali = () => {
   const [bali,setBali]=useState([]);
+  const [balimodal,setBaliModal]=useState(null)
 
 
   useEffect(()=>{
@@ -70,18 +74,23 @@ const Bali = () => {
         
         {
             bali.map((balivalue)=>{
+              <Balimodal
+              balivalue={balivalue}
+              setBaliModal={setBaliModal}
+              ></Balimodal>
               const {img,name,desc,location,price}=balivalue
               return(
                 <div>
                   <div className="card roomcrd w-96 bg-base-100 shadow-xl">
   <figure><img src={img} alt="Shoes" /></figure>
-  <p>{location}</p>
-  <div className="card-body">
+  <p className='text-error'><FontAwesomeIcon icon={faLocationDot} /> {location}</p>
+  <div className="card-body text-start">
     <h2 className="card-title">{name}</h2>
     <p>{desc}</p>
     <p>{price}</p>
     <div className="card-actions justify-end">
-      <button className="btn btn-primary">Buy Now</button>
+    <label onClick={()=>setBaliModal(balivalue)}  htmlFor="booking-modal-6" className="btn">Book Now</label>
+      {/* <button className="btn btn-primary">Buy Now</button> */}
     </div>
   </div>
 </div>
@@ -90,6 +99,8 @@ const Bali = () => {
 
             })
         }
+
+        {balimodal && <Balimodal balimodal={balimodal}></Balimodal>}
         </div>
       </section>
 

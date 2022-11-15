@@ -8,6 +8,17 @@
     font-size: 20px;
 
 }
+.menunav2{
+    height: 90px;
+    width:  90px;
+    color: blueviolet;
+    position: fixed;
+    top: 0%;
+    left: 95%;
+    width: 20px;
+    font-size: 20px;
+
+}
 .footerimg{
     height: 100px;
 }

@@ -5,10 +5,13 @@ import Slider from 'react-slick';
 import Footer from '../Shared/Footer';
 import '../Travelpagecss/morokkocss.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBuilding, faCircleInfo, faCoffee, faContactBook, faHouse, faInfo, faLocationDot, faPlaneArrival, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faLocationDot  } from '@fortawesome/free-solid-svg-icons'
+import MorokkoModal from '../BookingModal.js/MorokkoModal';
 
 const Karkow = () => {
   const [morokko,setMorokko]=useState([]);
+  const [morokkomodal,setMorokkoModal]=useState(null)
+
 
 
   useEffect(()=>{
@@ -75,6 +78,10 @@ Inhabited since the Paleolithic Era over 90,000 years ago, the first Moroccan st
         
         {
             morokko.map((morokkovalue)=>{
+              <MorokkoModal
+              morokkovalue={morokkovalue}
+              setMorokkoModal={setMorokkoModal}
+              ></MorokkoModal>
               const {img,name,desc,location,price}=morokkovalue;
               return(
                 <div>
@@ -88,9 +95,14 @@ Inhabited since the Paleolithic Era over 90,000 years ago, the first Moroccan st
     <p className='text-3xl'>{price}</p>
     <p>per night</p>
     </div>
+
+
+    
+
+
     
     <div className="card-actions justify-center">
-      <button className="btn btn-wide btn-primary">Book Now</button>
+    <label onClick={()=>setMorokkoModal(morokkovalue)}  htmlFor="booking-modal-6" className="btn">Book Now</label>
     </div>
   </div>
 </div>
@@ -99,6 +111,7 @@ Inhabited since the Paleolithic Era over 90,000 years ago, the first Moroccan st
 
             })
         }
+        {morokkomodal && <MorokkoModal morokkomodal={morokkomodal}></MorokkoModal>}
         </div>
       </section>
 

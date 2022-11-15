@@ -15,6 +15,11 @@ import Piran from './TravelPage/Piran';
 import Karkow from './TravelPage/Karkow';
 import Bali from './TravelPage/Bali';
 import Destination from './Pages/Destination/Destination';
+import Signup from './Pages/Login/Signup';
+import RequireAuth from './Pages/Login/RequireAuth';
+import Userprofile from './Pages/Userprofile/Userprofile';
+import MyBooking from './Pages/Userprofile/MyBooking';
+import Allusers from './Pages/Userprofile/Allusers';
 
 function App() {
   return (
@@ -24,10 +29,31 @@ function App() {
       <Route path='/' element={<Home></Home>}> </Route>
       <Route path='/about' element={<About></About>}> </Route>
       <Route path='/rooms' element={<Rooms></Rooms>}> </Route>
-      <Route path='/destination' element={<Destination></Destination>}> </Route>
+      <Route path='profile' element={
+        <RequireAuth>
+          <Userprofile></Userprofile>
+        </RequireAuth>
+      }>
+         <Route path='mybooking' element={<MyBooking></MyBooking>}> </Route>
+         <Route path='alluser' element={<Allusers></Allusers>}> </Route>
+        
+         </Route>
+     
+      <Route path='/destination' element={
+        <RequireAuth>
+          <Destination></Destination>
+        </RequireAuth>
+      }>
+        
+       
+        
+        
+        
+         </Route>
       
       <Route path='/contact' element={<Contact></Contact>}> </Route>
       <Route path='/login' element={<Login></Login>}> </Route>
+      <Route path='/register' element={<Signup></Signup>}> </Route>
       <Route path='/beijing' element={<Beijing></Beijing>}> </Route>
       <Route path='/maldiv' element={<Maldiv></Maldiv>}> </Route>
       <Route path='/india' element={<India></India>}> </Route>

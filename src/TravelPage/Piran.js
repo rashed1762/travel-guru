@@ -5,10 +5,12 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Footer from '../Shared/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBuilding, faCircleInfo, faCoffee, faContactBook, faHouse, faInfo, faLocationDot, faPlaneArrival, faUser } from '@fortawesome/free-solid-svg-icons'
+import {  faLocationDot} from '@fortawesome/free-solid-svg-icons'
+import SuitzerlandModal from '../BookingModal.js/SuitzerlandModal';
 
 const Piran = () => {
   const [suiz,setSuiz]=useState([]);
+  const [suizmodal,setSuizModal]=useState(null);
 
 
   useEffect(()=>{
@@ -72,6 +74,10 @@ const Piran = () => {
         
         {
             suiz.map((suizvalue)=>{
+              <SuitzerlandModal
+              suizvalue={suizvalue}
+              setSuizModal={setSuizModal}
+              ></SuitzerlandModal>
               const {img,name,desc,location,price}=suizvalue;
               return(
                 <div>
@@ -85,9 +91,14 @@ const Piran = () => {
     <p className='text-3xl'>{price}</p>
     <p>per night</p>
     </div>
+
+ 
+
+
+
     
     <div className="card-actions justify-center">
-      <button className="btn btn-wide btn-primary">Book Now</button>
+    <label onClick={()=>setSuizModal(suizvalue)}  htmlFor="booking-modal-6" className="btn">Book Now</label>
     </div>
   </div>
 </div>
@@ -96,6 +107,7 @@ const Piran = () => {
 
             })
         }
+        {suizmodal && <SuitzerlandModal suizmodal={suizmodal}></SuitzerlandModal>}
         </div>
       </section>
 

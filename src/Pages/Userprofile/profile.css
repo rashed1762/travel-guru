@@ -1,0 +1,16 @@
+.sidebar{
+    /* position: fixed;  */
+    
+    height: 100%;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    border-top: 2px solid gray;
+    border-radius: 20px;
+    
+}
+
+.bookingimg{
+    height: 70px;
+    width: 100px;
+    border-radius: 20px;
+}

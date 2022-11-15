@@ -6,11 +6,13 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBuilding, faCircleInfo, faCoffee, faContactBook, faHouse, faInfo, faLocationDot, faPlaneArrival, faUser } from '@fortawesome/free-solid-svg-icons'
+import BeijingModal from '../BookingModal.js/BeijingModal';
 
 const Beijing = () => {
 
 
   const [beijing,setBeijing]=useState([]);
+  const [beijingmodal,setBeijingModal]=useState(null)
 
 
   useEffect(()=>{
@@ -76,6 +78,11 @@ const Beijing = () => {
         
         {
             beijing.map((beijingvalue)=>{
+              <BeijingModal 
+              beijingvalue={beijingvalue}
+              setBeijingModal={setBeijingModal}
+              
+              ></BeijingModal>
               const {img,name,desc,location,price}=beijingvalue;
               return(
                 <div>
@@ -91,7 +98,7 @@ const Beijing = () => {
     </div>
     
     <div className="card-actions justify-center">
-      <button className="btn btn-wide btn-primary">Book Now</button>
+    <label onClick={()=>setBeijingModal(beijingvalue)}  htmlFor="booking-modal-6" className="btn">Book Now</label>
     </div>
   </div>
 </div>
@@ -100,6 +107,7 @@ const Beijing = () => {
 
             })
         }
+        {beijingmodal && <BeijingModal beijingomodal={beijingmodal}></BeijingModal>}
         </div>
       </section>
 

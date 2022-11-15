@@ -1,0 +1,16 @@
+.img1{
+    height: 550px;
+    padding-top: 120px;
+}
+.img2{
+    height: 150px;
+    margin-top: 580px;
+}
+.login{
+    box-shadow: 10px 10px 20px rgb(156, 250, 148);
+    border-radius: 20px;
+}
+.loginback{
+    background-image: url("/src/assestes/11111.jpg");
+    background-size: cover;
+}

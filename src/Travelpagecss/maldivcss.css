@@ -10,10 +10,13 @@
 
 }
 .suizimg{
-    height: 500px;
+    height: 600px;
     width: 100%;
     padding: 0px 60px;
     margin-left: 20px;
     border-radius: 20px;
     
+}
+.bookingform{
+    width: 120px;
 }

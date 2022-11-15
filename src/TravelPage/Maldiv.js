@@ -5,11 +5,17 @@ import Footer from '../Shared/Footer';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBuilding, faCircleInfo, faCoffee, faContactBook, faHouse, faInfo, faLocationDot, faPlaneArrival, faUser } from '@fortawesome/free-solid-svg-icons'
+import {  faLocationDot } from '@fortawesome/free-solid-svg-icons'
+import { useAuthState } from 'react-firebase-hooks/auth';
+import auth from '../firebase.init';
+import MaldivModal from '../BookingModal.js/MaldivModal';
 
 const Maldiv = () => {
 
+
   const [maldiv,setMaldiv]=useState([]);
+  const [maldivmodal,setMaldivModal]=useState(null)
+  
 
 
   useEffect(()=>{
@@ -77,22 +83,30 @@ The Maldivian Archipelago is located on the Chagos–Laccadive Ridge, a vast sub
         
         {
             maldiv.map((maldivvalue)=>{
+              <MaldivModal
+              maldivvalue={maldivvalue}
+              setMaldivModal={setMaldivModal}
+              
+              ></MaldivModal>
               const {img,name,desc,location,price}=maldivvalue;
               return(
                 <div>
                   <div className="card roomcrd w-96 bg-base-100 shadow-xl p-5">
-  <figure><img src={img} alt="Shoes" /></figure>
+  <figure><img  src={img} alt="Shoes" /></figure>
   <p className='text-error'><FontAwesomeIcon icon={faLocationDot} /> {location}</p>
-  <div className="text-start mt-10">
+  <div className="text-start mt-6">
     <h2 className="card-title mb-2">{name}</h2>
     <p>{desc}</p>
     <div className="card-actions mr-10 font-bold justify-end mt-10">
     <p className='text-3xl'>{price}</p>
     <p>per night</p>
     </div>
+
+
+  
     
-    <div className="card-actions justify-center">
-      <button className="btn btn-wide btn-primary">Book Now</button>
+    <div className="card-actions justify-center mt-10">
+    <label onClick={()=>setMaldivModal(maldivvalue)}  htmlFor="booking-modal-6" className="btn">Book Now</label>
     </div>
   </div>
 </div>
@@ -101,6 +115,7 @@ The Maldivian Archipelago is located on the Chagos–Laccadive Ridge, a vast sub
 
             })
         }
+        {maldivmodal && <MaldivModal maldivmodal={maldivmodal}></MaldivModal>}
         </div>
       </section>
 
