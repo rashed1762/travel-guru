@@ -54,7 +54,7 @@ const BeijingModal = ({beijingomodal}) => {
   <div className="modal-box">
   <label htmlFor="booking-modal-6" className="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
     <h3 className="font-bold text-lg">{name}</h3>
-    <img src={img} alt="" />
+    <img className='rounded-lg' src={img} alt="" />
     <p className="py-4"> <span className='font-bold text-xl text-accent'>{price}</span> Per night</p>
 
     <form onSubmit={handleBooking}  action="">

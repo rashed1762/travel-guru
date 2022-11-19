@@ -2,7 +2,7 @@ import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import './nav.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBuilding, faCircleInfo, faCoffee, faContactBook, faHouse, faInfo, faPersonWalkingArrowRight, faPlaneArrival, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faBuilding, faCircleInfo, faCoffee, faContactBook, faHouse, faInfo, faLuggageCart, faPersonWalkingArrowRight, faPlaneArrival, faSuitcase, faUser } from '@fortawesome/free-solid-svg-icons'
 import { useAuthState } from 'react-firebase-hooks/auth'
 import auth from '../firebase.init'
 import { signOut } from 'firebase/auth'
@@ -32,13 +32,7 @@ const Navcomp = () => {
     </div>
     </NavLink>
   </li>
-  <li>
-  <NavLink to="/rooms" as={Link}>
-  <div className="tooltip w-10 rounded-full" data-tip="our rooms">
-  <FontAwesomeIcon icon={faBuilding} />
-    </div>
-    </NavLink>
-  </li>
+
   <li>
   <NavLink to="/destination" as={Link}>
   <div className="tooltip w-10 rounded-full" data-tip="Destination">
@@ -46,6 +40,16 @@ const Navcomp = () => {
     </div>
     </NavLink>
   </li>
+
+
+  <li>
+  <NavLink to="/product" as={Link}>
+  <div className="tooltip w-10 rounded-full" data-tip="Products">
+  <FontAwesomeIcon icon={faLuggageCart} />
+    </div>
+    </NavLink>
+  </li>
+ 
   <li>
   <NavLink to="/contact" as={Link}>
   <div className="tooltip w-10 rounded-full " data-tip="contact">

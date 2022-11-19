@@ -13,7 +13,7 @@ const Userprofile = () => {
             
   <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
   <div className="drawer-content ">
-    <h1 className='text-5xl font-bold'>Welcome To Dashbord</h1>
+    <h1 className='text-5xl font-bold mb-6'>Welcome To Dashbord</h1>
     <Outlet></Outlet>
     
     <label htmlFor="my-drawer-2" className="btn btn-primary drawer-button lg:hidden">Open drawer</label>
@@ -37,6 +37,8 @@ const Userprofile = () => {
       <li className='bg-error rounded-lg'><Link to="/profile/mybooking"> My booking</Link></li>
       <br />
       <li className='bg-error rounded-lg'><Link to="/profile/alluser"> All Users</Link></li>
+      <br />
+      <li className='bg-error rounded-lg'><Link to="/profile/productBook"> My Product</Link></li>
     </ul>
   
   </div>

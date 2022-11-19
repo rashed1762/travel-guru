@@ -1,0 +1,46 @@
+.bannershop{
+background-image: url('/src/assestes/productbanner.webp');
+height: 500px;
+background-position-y:bottom ;
+background-attachment: fixed;
+}
+.bannerinfo{
+    margin-right: 800px;
+    padding-top: 200px;
+    
+}
+.sidebarshop{
+    border-left: 2px solid gray;
+    
+}
+
+.crdimgshop{
+    position: relative;
+    height: 400px;
+    width: 100%;
+    
+
+}
+.crdinfo{
+    position: absolute;
+    height: 100%;
+    opacity: 0;
+}
+.viewbtn{
+   margin-top: 330px;
+}
+.crdinfo:hover{
+   opacity: 1;
+   transition: .9s;
+}
+.btncrd{
+ width: 180px;   
+}
+.modalimg{
+    width: 350px;
+}
+.cart-btn{
+    position: fixed;
+    right: 0%;
+    top:40% ;
+}

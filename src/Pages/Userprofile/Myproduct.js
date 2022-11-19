@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import { useAuthState } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
-import './profile.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDatabase } from '@fortawesome/free-solid-svg-icons'
 
-const MyBooking = () => {
-    const [booking,setBooking]=useState([]);
+const Myproduct = () => {
+    const [productbooking,setProductBooking]=useState([]);
     const [user]=useAuthState(auth);
    
   
@@ -15,18 +14,14 @@ const MyBooking = () => {
         if(user){
 
         
-      fetch(`http://localhost:5000/booking?useremail=${user.email}`)
+      fetch(`http://localhost:5000/productbooking?useremail=${user.email}`)
       .then(res=>res.json())
-      .then(data=>setBooking(data));
+      .then(data=>setProductBooking(data));
         }
   },[user])
-
- console.log(user)
-  
-
   return (
     <div>
-        <p>total booking :{booking.length}</p>
+        <p>total booking :{productbooking.length}</p>
 
         <div className="overflow-x-auto">
   <table className="table w-full">
@@ -46,14 +41,14 @@ const MyBooking = () => {
     </thead>
     <tbody>
       {
-        booking.map(rooms=>
+        productbooking.map(products=>
             <tr>
             <th> <FontAwesomeIcon icon={faDatabase} /></th>
-            <td>{rooms.username}</td>
-            <td className='font-bold'> {rooms.name} <img className='bookingimg' src={rooms.img} alt="" /></td>
-            <td>{rooms.month} {rooms.checkindate}</td>
-            <td>{rooms.month} {rooms.checkoutdate}</td>
-            <td className='font-bold'>{rooms.price}</td>
+            <td>{products.username}</td>
+            <td className='font-bold'> {products.name} <img className='bookingimg' src={products.img} alt="" /></td>
+            <td>{products.month} {products.checkindate}</td>
+            <td>{products.month} {products.checkoutdate}</td>
+            <td className='font-bold'>{products.price}</td>
           </tr>)
       }
      
@@ -67,4 +62,4 @@ const MyBooking = () => {
   )
 }
 
-export default MyBooking;
+export default Myproduct;
