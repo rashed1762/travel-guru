@@ -20,6 +20,8 @@ const Bali = () => {
 },[])
 
 
+
+
   const settings = {
     dots: true,
     fade: true,
@@ -69,7 +71,7 @@ const Bali = () => {
 
       <section>
 
-        <div className='grid grid-cols-2 gap-4' >
+        <div className='grid lg:grid-cols-2  gap-4 lg:gap-0 mt-12' >
           
         
         {
@@ -81,14 +83,17 @@ const Bali = () => {
               const {img,name,desc,location,price}=balivalue
               return(
                 <div>
-                  <div className="card roomcrd w-96 bg-base-100 shadow-xl">
+                  <div className="card roomcrd w-96 m-2 bg-base-100 shadow-xl">
   <figure><img src={img} alt="Shoes" /></figure>
   <p className='text-error'><FontAwesomeIcon icon={faLocationDot} /> {location}</p>
-  <div className="card-body text-start">
-    <h2 className="card-title">{name}</h2>
+  <div className=" text-start mt-6">
+    <h2 className="card-title mb-2">{name}</h2>
     <p>{desc}</p>
-    <p>{price}</p>
-    <div className="card-actions justify-end">
+    <div className="card-actions mr-10 font-bold justify-end mt-10">
+    <p className='text-3xl'>{price}</p>
+    <p>per night</p>
+    </div>
+    <div className="card-actions justify-center mt-10">
     <label onClick={()=>setBaliModal(balivalue)}  htmlFor="booking-modal-6" className="btn">Book Now</label>
       {/* <button className="btn btn-primary">Buy Now</button> */}
     </div>

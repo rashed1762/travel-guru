@@ -104,7 +104,7 @@ const ItalyModal = ({italymodal}) => {
 
     </div>
 
-      <input type="submit" value="submit" className="btn btn-primary" />
+      <input type="submit" value="submit" className="btn btn-primary mt-4" />
 </form>
   
 

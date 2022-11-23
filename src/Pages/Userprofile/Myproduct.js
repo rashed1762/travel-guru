@@ -1,14 +1,13 @@
 import React, { useEffect, useState } from 'react'
 import { useAuthState } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faDatabase } from '@fortawesome/free-solid-svg-icons'
+
+import ProductRow from './ProductRow';
 
 const Myproduct = () => {
-    const [productbooking,setProductBooking]=useState([]);
+    const [productbooking,setProductBooking,refetch]=useState([]);
     const [user]=useAuthState(auth);
-   
-  
+
   
     useEffect(()=>{
         if(user){
@@ -18,10 +17,11 @@ const Myproduct = () => {
       .then(res=>res.json())
       .then(data=>setProductBooking(data));
         }
+        
   },[user])
   return (
     <div>
-        <p>total booking :{productbooking.length}</p>
+        <p>Total Product : <span className='text-secondary font-bold'>{productbooking.length}</span> </p>
 
         <div className="overflow-x-auto">
   <table className="table w-full">
@@ -32,9 +32,8 @@ const Myproduct = () => {
 
         
         <th>User Name</th>
-        <th>Hotel Name</th>
-        <th>Check in Date</th>
-        <th>Check Out Date</th>
+        <th>Product</th>
+        <th>Product Quantity</th>
         <th>price</th>
         <th>Manage Item</th>
       </tr>
@@ -42,14 +41,16 @@ const Myproduct = () => {
     <tbody>
       {
         productbooking.map(products=>
-            <tr>
-            <th> <FontAwesomeIcon icon={faDatabase} /></th>
-            <td>{products.username}</td>
-            <td className='font-bold'> {products.name} <img className='bookingimg' src={products.img} alt="" /></td>
-            <td>{products.month} {products.checkindate}</td>
-            <td>{products.month} {products.checkoutdate}</td>
-            <td className='font-bold'>{products.price}</td>
-          </tr>)
+          
+        <ProductRow
+        key={products._key}
+        products={products}
+        refetch={refetch}
+        
+        ></ProductRow>
+        
+          )
+          
       }
      
       
@@ -57,6 +58,8 @@ const Myproduct = () => {
     </tbody>
   </table>
 </div>
+
+<p>subtotal:</p>
       
     </div>
   )

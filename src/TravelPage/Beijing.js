@@ -73,7 +73,7 @@ const Beijing = () => {
           </h1>
           <p className='text-xl'>We have super exclusive room with cheap price.we want to ensure a safe and happy journey and enjoy your travel</p>
         </div>
-        <div className='grid grid-cols-2 gap-4 mt-12' >
+        <div className='grid lg:grid-cols-2  gap-4 lg:gap-0 mt-12' >
           
         
         {
@@ -86,10 +86,10 @@ const Beijing = () => {
               const {img,name,desc,location,price}=beijingvalue;
               return(
                 <div>
-                  <div className="card roomcrd w-96 bg-base-100 shadow-xl p-5">
+                  <div className="card roomcrd w-16 m-2 bg-base-100 shadow-xl p-5">
   <figure><img src={img} alt="Shoes" /></figure>
   <p className='text-error'><FontAwesomeIcon icon={faLocationDot} /> {location}</p>
-  <div className="text-start mt-10">
+  <div className="text-start body mt-10">
     <h2 className="card-title mb-2">{name}</h2>
     <p>{desc}</p>
     <div className="card-actions mr-10 font-bold justify-end mt-10">

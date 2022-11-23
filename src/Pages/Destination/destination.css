@@ -10,7 +10,7 @@
 .destinationcrd{
     background-image: url("/src/assestes/des1.jpg");
     background-size: cover;
-    width: 470px;
+    width: 450px;
     height: 400px;
     overflow: hidden;
 }
@@ -26,7 +26,7 @@
 .destinationcrd2{
     background-image: url("/src/assestes/des2.jpg");
     background-size: cover;
-    width: 470px;
+    width: 450px;
     height: 400px;
 }
 
@@ -40,7 +40,7 @@
 .destinationcrd3{
     background-image: url("/src/assestes/indiades.jpg");
     background-size: cover;
-    width: 470px;
+    width: 450px;
     height: 400px;
 }
 
@@ -54,7 +54,7 @@
 .destinationcrd4{
     background-image: url("/src/assestes/bali.jpg");
     background-size: cover;
-    width: 470px;
+    width: 450px;
     height: 400px;
 }
 
@@ -68,7 +68,7 @@
 .destinationcrd5{
     background-image: url("/src/assestes/suizerland.jpg");
     background-size: cover;
-    width: 470px;
+    width: 450px;
     height: 400px;
 }
 .destinationcrd5:hover{
@@ -81,7 +81,7 @@
 .destinationcrd6{
     background-image: url("/src/assestes/morokko.jpg");
     background-size: cover;
-    width: 470px;
+    width: 450px;
     height: 400px;
 }
 
@@ -95,7 +95,7 @@
 .destinationcrd7{
     background-image: url("/src/assestes/italydes.jpg");
     background-size: cover;
-    width: 470px;
+    width: 450px;
     height: 400px;
 }
 
@@ -105,6 +105,34 @@
     overflow: hidden;
     border-radius: 20px;
 }
+
+@media screen and (max-width:769px) {
+    .destinationcrd{
+        margin-left: 90px;
+    }
+    .destinationcrd2{
+        margin-left: 90px;
+    }
+    .destinationcrd3{
+        margin-left: 90px;
+    }
+    .destinationcrd4{
+        margin-left: 90px;
+    }
+    .destinationcrd5{
+        margin-left: 90px;
+    }
+    .destinationcrd6{
+        margin-left: 90px;
+    }
+    .destinationcrd7{
+        margin-left: 90px;
+    }
+    
+ 
+ }
+ 
+ 
 
 
 

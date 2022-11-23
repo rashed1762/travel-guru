@@ -4,3 +4,9 @@
     background-size: cover;
     
 }
+.aboutbanner2{
+    background-image: url('/src/assestes/aboubanner2.jpg');
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+}

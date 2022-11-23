@@ -44,3 +44,17 @@ background-attachment: fixed;
     right: 0%;
     top:40% ;
 }
+
+@media screen and (max-width:769px) {
+    
+    
+    .shopcrd{
+        width: 400px;
+        margin-left: 100px;
+        
+    }
+    .viewbtn{
+        margin-left: 130px;
+        margin-top: 300px;
+    }
+ }

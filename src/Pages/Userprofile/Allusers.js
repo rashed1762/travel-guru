@@ -1,23 +1,12 @@
 import React from 'react'
 import { useQuery } from 'react-query';
+import UserRow from './UserRow';
 
 const Allusers = () => {
    
     const {data:users,isLoading,refetch}=useQuery('users',()=>fetch('http://localhost:5000/user').then(res=>res.json()));
     
-    const makeAdmin=()=>{
-        fetch(`http://localhost:5000/user/admin/${users.email}`,{
-            method:'PUT',
-            headers:{
-                authorization: `bearer ${localStorage.getItem('accessToken')}`
-            }
-        })
-        .then(res=>res.json())
-        .then(data=>{
-            console.log(data);
-        })
-    }
-    
+   
     if (isLoading) {
         return <button className="btn loading">loading</button>
     }
@@ -39,25 +28,16 @@ const Allusers = () => {
     <tbody>
 
         {
-            users.map(user=>{
+            users.map(user=>
                 
-                const {email}=user;
-                return(
-                <tr>
-                <th>1</th>
-                <td>{email}</td>
-                <td><button onClick={makeAdmin} className="btn btn-xs">Make Admin</button></td>
-                <td>remove user</td>
-              </tr>
-                )
-            })
+              <UserRow
+              user={user}
+              refetch={refetch}
+              ></UserRow>
+                
+            )
         }
      
-    
-     
-      
-      
-      
     </tbody>
   </table>
 </div>

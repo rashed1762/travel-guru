@@ -27,14 +27,14 @@ const Destination = () => {
         </div>
 
     
-    <div className='grid grid-cols-3 gap-4 mt-28 ml-16 mr-10'>
+    <div className=' grid mt-28 ml-24 mr-10 grid lg:grid-cols-3  gap-4 lg:gap-0 mt-12'>
       <div>
         <NavLink to="/beijing" as={Link}>
 
 
         <div className="card destinationcrd w-96 bg-base-100 shadow-xl">
   <div className="card-body">
-   <h1 className='text-6xl font-bold  text-white'>Beijing</h1>
+   <h1 className='text-6xl font-bold countryname text-white'>Beijing</h1>
   </div>
 </div>
 
@@ -47,7 +47,7 @@ const Destination = () => {
 
         <div className="card destinationcrd2 w-96 bg-base-100 shadow-xl">
   <div className="card-body">
-   <h1 className='text-6xl font-bold  text-white'>Maldiv</h1>
+   <h1 className='text-6xl font-bold countryname  text-white'>Maldiv</h1>
   </div>
 </div>
 
@@ -62,7 +62,7 @@ const Destination = () => {
 
         <div className="card destinationcrd3 w-96 bg-base-100 shadow-xl">
   <div className="card-body">
-   <h1 className='text-6xl font-bold  text-white'>India</h1>
+   <h1 className='text-6xl font-bold countryname  text-white'>India</h1>
   </div>
 </div>
 
@@ -77,7 +77,7 @@ const Destination = () => {
 
         <div className="card destinationcrd4 w-96 bg-base-100 shadow-xl">
   <div className="card-body">
-   <h1 className='text-6xl font-bold  text-white'>Bali</h1>
+   <h1 className='text-6xl font-bold countryname  text-white'>Bali</h1>
   </div>
 </div>
 
@@ -92,7 +92,7 @@ const Destination = () => {
 
         <div className="card destinationcrd5 w-96 bg-base-100 shadow-xl">
   <div className="card-body">
-   <h1 className='text-6xl font-bold  text-white'>Switzerland</h1>
+   <h1 className='text-6xl font-bold countryname  text-white'>Switzerland</h1>
   </div>
 </div>
 
@@ -107,7 +107,7 @@ const Destination = () => {
 
         <div className="card destinationcrd6 w-96 bg-base-100 shadow-xl">
   <div className="card-body">
-   <h1 className='text-6xl font-bold text-white'>Morokko</h1>
+   <h1 className='text-6xl font-bold countryname text-white'>Morokko</h1>
   </div>
 </div>
 
@@ -123,7 +123,7 @@ const Destination = () => {
 
         <div className="card destinationcrd7 w-96 bg-base-100 shadow-xl">
   <div className="card-body">
-   <h1 className='text-6xl font-bold  text-white'>Italy</h1>
+   <h1 className='text-6xl font-bold countryname  text-white'>Italy</h1>
   </div>
 </div>
 

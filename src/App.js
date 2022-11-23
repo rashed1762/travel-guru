@@ -22,6 +22,7 @@ import MyBooking from './Pages/Userprofile/MyBooking';
 import Allusers from './Pages/Userprofile/Allusers';
 import Product from './Pages/Product/Product';
 import Myproduct from './Pages/Userprofile/Myproduct';
+import Payment from './Pages/Userprofile/Payment';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       <Route path='/' element={<Home></Home>}> </Route>
       <Route path='/about' element={<About></About>}> </Route>
       <Route path='/product' element={<Product></Product>}> </Route>
+      
       <Route path='profile' element={
         <RequireAuth>
           <Userprofile></Userprofile>
@@ -39,6 +41,8 @@ function App() {
          <Route path='mybooking' element={<MyBooking></MyBooking>}> </Route>
          <Route path='alluser' element={<Allusers></Allusers>}> </Route>
          <Route path='productbook' element={<Myproduct></Myproduct>}> </Route>
+         
+         
         
          </Route>
      

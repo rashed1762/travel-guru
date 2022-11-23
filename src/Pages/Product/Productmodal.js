@@ -68,7 +68,7 @@ const Productmodal = ({productmodal}) => {
     <p> Price: <span className='font-bold'>{price}</span></p>
     <p>Category: <span className='font-bold'>{Category}</span></p>
     <div className="modal-action">
-      <label onClick={handleBooking} htmlFor="product-modal-5" className="btn">Yay!</label>
+      <label onClick={handleBooking} htmlFor="product-modal-5" className="btn">Add To Cart</label>
     </div>
     </div>
    

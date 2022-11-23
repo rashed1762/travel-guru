@@ -3,9 +3,14 @@ import './profile.css'
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { Link, Outlet } from 'react-router-dom';
 import auth from '../../firebase.init';
+import Footer from '../../Shared/Footer';
+import useAdmin from '../../components/hooks/useAdmin';
+
 
 const Userprofile = () => {
     const [user] = useAuthState(auth);
+    const [admin]=useAdmin(user);
+    
   return (
     <div className='ml-20'>
         
@@ -35,14 +40,27 @@ const Userprofile = () => {
       </div>
       <p className='mb-5'> Hello! <span className='font-bold '>{user.displayName}</span></p>
       <li className='bg-error rounded-lg'><Link to="/profile/mybooking"> My booking</Link></li>
+      
+      
       <br />
-      <li className='bg-error rounded-lg'><Link to="/profile/alluser"> All Users</Link></li>
-      <br />
+      
       <li className='bg-error rounded-lg'><Link to="/profile/productBook"> My Product</Link></li>
+      <br />
+      {
+        admin && 
+         <li className='bg-error rounded-lg'><Link to="/profile/alluser"> All Users</Link></li>
+        
+      }
+
+   
     </ul>
   
   </div>
 </div>
+
+<section className='mt-16'>
+          <Footer></Footer>
+        </section>
 
 
     </div>

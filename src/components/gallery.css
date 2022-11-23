@@ -24,3 +24,20 @@
 .crdimg{
     height: 400px;
 }
+
+@media screen and (max-width:769px) {
+    .search{
+     padding-top: 20px;
+    }
+    .letsgo{
+     display: none;
+    }
+    .amazing{
+     padding-right: 38px;
+    }
+    .crdstyleslider{
+        width: 200px;
+        height: 400px;
+    }
+ 
+ }

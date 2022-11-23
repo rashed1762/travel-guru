@@ -145,6 +145,37 @@ const Signup = () => {
   
 </div>
 
+
+<div className="form-control w-full max-w-xs">
+  <label className="label">
+    <span className="label-text"><span className='font-bold text-white'>Photo</span></span>
+  </label>
+  <input
+  type="file"
+  className="input input-bordered w-full max-w-xs"
+  {...register("image", {
+    required:{
+      value:true,
+      message:'image is required'
+    },
+
+    minLength: {
+      value: 6,
+      message: 'Must be 6 charecter or longer' 
+    }
+
+  })} 
+  
+  
+   />
+    <label className='label text-error'>
+     {errors.name?.type === 'required' && <span >{errors.password.message}</span>}
+    </label>
+  
+</div>
+
+
+
 <div className="flex flex-col w-full border-opacity-50">
 
 </div>

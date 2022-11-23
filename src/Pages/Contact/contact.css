@@ -1,0 +1,25 @@
+.bannercontact{
+    background-image: url('/src/assestes/email.webp');
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.form{
+    box-shadow: 10px 10px 20px rgb(177, 240, 231);
+    width: 450px;
+    height: 630px;
+    margin-left: 150px;
+    margin-top: 40px;
+    border-radius: 20px;
+    
+}
+.message{
+    height: 250px;
+}
+@media screen and (max-width:769px) {
+.imgpart{
+    display: none;
+}    
+
+}
+

@@ -17,3 +17,11 @@
     border-radius: 20px;
     
 }
+.roomcrd{
+    box-shadow: 10px 10px 20px rgb(248, 173, 173);
+}
+
+@media screen and (max-width:769px) {
+   
+ 
+ }

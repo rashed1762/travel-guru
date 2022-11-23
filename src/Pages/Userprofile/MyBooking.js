@@ -4,6 +4,8 @@ import auth from '../../firebase.init';
 import './profile.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDatabase } from '@fortawesome/free-solid-svg-icons'
+import { Link, NavLink } from 'react-router-dom';
+
 
 const MyBooking = () => {
     const [booking,setBooking]=useState([]);
@@ -38,9 +40,10 @@ const MyBooking = () => {
         
         <th>User Name</th>
         <th>Hotel Name</th>
-        <th>Check in Date</th>
-        <th>Check Out Date</th>
+        <th>Check-in Date</th>
+        <th>Check-Out Date</th>
         <th>price</th>
+        <th>Pay</th>
         <th>Manage Item</th>
       </tr>
     </thead>
@@ -54,6 +57,8 @@ const MyBooking = () => {
             <td>{rooms.month} {rooms.checkindate}</td>
             <td>{rooms.month} {rooms.checkoutdate}</td>
             <td className='font-bold'>{rooms.price}</td>
+            <td className='font-bold'><NavLink to={`profile/payment/${rooms._id}`} as={Link}><button className="btn btn-sm">Pay</button></NavLink> </td>
+            <td className='font-bold'><button className="btn btn-sm">Remove</button></td>
           </tr>)
       }
      
@@ -62,6 +67,8 @@ const MyBooking = () => {
     </tbody>
   </table>
 </div>
+
+
       
     </div>
   )

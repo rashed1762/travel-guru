@@ -1,10 +1,10 @@
 import React from 'react'
 import './Home.css'
-import img1 from '../../assestes/download.png'
+
 import img2 from '../../assestes/tour (2).png'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBuilding, faBuildingColumns, faCalendar, faCar, faCircleInfo, faCoffee, faContactBook, faHouse, faInfo, faPlateWheat, faUser, faUtensilSpoon, faWaveSquare } from '@fortawesome/free-solid-svg-icons'
+import {  faBuildingColumns, faCar,  faPlateWheat,  faWaveSquare } from '@fortawesome/free-solid-svg-icons'
 import Homegallery from '../../components/Homegallery'
 import HomeSlider from '../../components/HomeSlider'
 import Footer from '../../Shared/Footer'
@@ -58,8 +58,8 @@ search part
       
 {/* //////////////////////////////////amazing tour AND FUN/////////////////////////////////////////////////// */}
 
-    <section className='flex text-start mt-28 '>
-      <div className='pl-20 pr-40'>
+    <section className='flex text-start mt-28  ml-28'>
+      <div className='pl-20 pr-40 amazing'>
         <div className='amazing'> 
         <h1 className='text-6xl'> <span className='font-bold'>Amazing </span> Tour and Fun</h1>
           <h1 className='text-6xl'>Adventure <span className='font-bold'>Waiting For You</span></h1>
@@ -67,7 +67,7 @@ search part
           
           <p className='mt-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi adipisci quidem voluptatem soluta eaque dignissimos corporis aspernatur maxime, perferendis cum vitae. Pariatur incidunt laudantium fuga excepturi accusantium maxime perspiciatis fugit!</p>
       </div>
-      <div className='pr-40'>
+      <div className='pr-40 letsgo'>
       <img className='letsgoimg' src={img2} alt="" />
       </div>
     </section>

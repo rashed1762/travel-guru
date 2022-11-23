@@ -73,7 +73,7 @@ Due to its central geographic location in Southern Europe and the Mediterranean,
           </h1>
           <p className='text-xl'>We have super exclusive room with cheap price.we want to ensure a safe and happy journey and enjoy your travel</p>
         </div>
-        <div className='grid grid-cols-2 gap-4 mt-12' >
+        <div className='grid lg:grid-cols-2  gap-4 lg:gap-0 mt-12' >
           
         
         {
@@ -87,7 +87,7 @@ Due to its central geographic location in Southern Europe and the Mediterranean,
               const {img,name,desc,location,price}=italyvalue;
               return(
                 <div>
-                  <div className="card roomcrd w-96 bg-base-100 shadow-xl p-5">
+                  <div className="card roomcrd w-96 m-2 bg-base-100 shadow-xl p-5">
   <figure><img src={img} alt="Shoes" /></figure>
   <p className='text-error'><FontAwesomeIcon icon={faLocationDot} /> {location}</p>
   <div className="text-start mt-10">

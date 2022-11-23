@@ -19,3 +19,18 @@
     border-left: 5px solid black;
     padding-left: 20px;
 }
+
+@media screen and (max-width:769px) {
+   .search{
+    padding-top: 20px;
+   }
+   .letsgo{
+    display: none;
+   }
+   .amazing{
+    padding-right: 38px;
+   }
+
+}
+
+
