@@ -19,7 +19,7 @@ const Maldiv = () => {
 
 
   useEffect(()=>{
-    fetch('http://localhost:5000/maldivrooms')
+    fetch('https://aqueous-gorge-39231.herokuapp.com/maldivrooms')
     .then(res=>res.json())
     .then(data=>setMaldiv(data));
 },[])

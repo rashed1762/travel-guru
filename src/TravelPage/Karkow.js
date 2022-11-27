@@ -15,7 +15,7 @@ const Karkow = () => {
 
 
   useEffect(()=>{
-    fetch('http://localhost:5000/morokkorooms')
+    fetch('https://aqueous-gorge-39231.herokuapp.com/morokkorooms')
     .then(res=>res.json())
     .then(data=>setMorokko(data));
 },[])

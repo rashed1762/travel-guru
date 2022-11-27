@@ -14,7 +14,7 @@ const Piran = () => {
 
 
   useEffect(()=>{
-    fetch('http://localhost:5000/suitzerlandrooms')
+    fetch('https://aqueous-gorge-39231.herokuapp.com/suitzerlandrooms')
     .then(res=>res.json())
     .then(data=>setSuiz(data));
 },[])

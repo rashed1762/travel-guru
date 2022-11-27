@@ -4,7 +4,6 @@ import {useCreateUserWithEmailAndPassword, useSignInWithGoogle, useUpdateProfile
 import { useForm } from 'react-hook-form';
 import './login.css'
 import auth from '../../firebase.init';
-import img1 from '../../assestes/landing-slider-img-1.png'
 import img2 from '../../assestes/landing-slider-img-3.png'
 import useToken from '../../components/hooks/useToken';
 // import useToken from '../../hooks/useToken';

@@ -4,7 +4,7 @@ import UserRow from './UserRow';
 
 const Allusers = () => {
    
-    const {data:users,isLoading,refetch}=useQuery('users',()=>fetch('http://localhost:5000/user').then(res=>res.json()));
+    const {data:users,isLoading,refetch}=useQuery('users',()=>fetch('https://aqueous-gorge-39231.herokuapp.com/user').then(res=>res.json()));
     
    
     if (isLoading) {

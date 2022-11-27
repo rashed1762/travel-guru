@@ -17,7 +17,7 @@ const MyBooking = () => {
         if(user){
 
         
-      fetch(`http://localhost:5000/booking?useremail=${user.email}`)
+      fetch(`https://aqueous-gorge-39231.herokuapp.com/booking?useremail=${user.email}`)
       .then(res=>res.json())
       .then(data=>setBooking(data));
         }

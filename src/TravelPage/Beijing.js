@@ -16,7 +16,7 @@ const Beijing = () => {
 
 
   useEffect(()=>{
-    fetch('http://localhost:5000/beijingrooms')
+    fetch('https://aqueous-gorge-39231.herokuapp.com/beijingrooms')
     .then(res=>res.json())
     .then(data=>setBeijing(data));
 },[])

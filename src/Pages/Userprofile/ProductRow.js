@@ -12,7 +12,7 @@ const ProductRow = ({products}) => {
     
 
 const handleDelete=id=>{
-    const url=`http://localhost:5000/productbooking/${id}?useremail=${user.email}`;
+    const url=`https://aqueous-gorge-39231.herokuapp.com/productbooking/${id}?useremail=${user.email}`;
     fetch(url,{
         method:"DELETE",
         headers:{

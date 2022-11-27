@@ -24,7 +24,7 @@ const MaldivModal = ({maldivmodal}) => {
       }
       console.log(booking)
       
-      fetch('http://localhost:5000/booking', {
+      fetch('https://aqueous-gorge-39231.herokuapp.com/booking', {
               method: 'POST',
               headers: {
                   'content-type': 'application/json'

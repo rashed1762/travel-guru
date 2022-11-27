@@ -26,7 +26,7 @@ const Productmodal = ({productmodal}) => {
       }
       console.log(booking)
       
-      fetch('http://localhost:5000/productbooking', {
+      fetch('https://aqueous-gorge-39231.herokuapp.com/productbooking', {
               method: 'POST',
               headers: {
                   'content-type': 'application/json'

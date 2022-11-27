@@ -21,7 +21,7 @@ const Product = () => {
       if(user){
 
       
-    fetch(`http://localhost:5000/productbooking?useremail=${user.email}`)
+    fetch(`https://aqueous-gorge-39231.herokuapp.com/productbooking?useremail=${user.email}`)
     .then(res=>res.json())
     .then(data=>setProductBooking(data));
       }
@@ -34,7 +34,7 @@ const Product = () => {
 
 
   useEffect(()=>{
-    fetch('http://localhost:5000/product')
+    fetch('https://aqueous-gorge-39231.herokuapp.com/product')
     .then(res=>res.json())
     .then(data=>setProduct(data));
 },[])

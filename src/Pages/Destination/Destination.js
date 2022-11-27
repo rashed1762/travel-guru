@@ -27,7 +27,7 @@ const Destination = () => {
         </div>
 
     
-    <div className=' grid mt-28 ml-24 mr-10 grid lg:grid-cols-3  gap-4 lg:gap-0 mt-12'>
+    <div className=' grid mt-28 ml-24 mr-10 grid lg:grid-cols-3  gap-4 lg:gap-0 mt-12 '>
       <div>
         <NavLink to="/beijing" as={Link}>
 

@@ -14,7 +14,7 @@ const Bali = () => {
 
 
   useEffect(()=>{
-    fetch('http://localhost:5000/balirooms')
+    fetch('https://aqueous-gorge-39231.herokuapp.com/balirooms')
     .then(res=>res.json())
     .then(data=>setBali(data));
 },[])

@@ -14,7 +14,7 @@ const Italy = () => {
 
 
   useEffect(()=>{
-    fetch('http://localhost:5000/italyrooms')
+    fetch('https://aqueous-gorge-39231.herokuapp.com/italyrooms')
     .then(res=>res.json())
     .then(data=>setItaly(data));
 },[])

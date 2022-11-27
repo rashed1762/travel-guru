@@ -13,7 +13,7 @@ const Myproduct = () => {
         if(user){
 
         
-      fetch(`http://localhost:5000/productbooking?useremail=${user.email}`)
+      fetch(`https://aqueous-gorge-39231.herokuapp.com/productbooking?useremail=${user.email}`)
       .then(res=>res.json())
       .then(data=>setProductBooking(data));
         }
